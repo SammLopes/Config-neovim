@@ -403,7 +403,3 @@
       nnoremap <leader>fh <cmd>Telescope help_tags<cr>
   endif
 
-  function! s:check_back_space() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1] =~# '\s'
-  endfunction
