@@ -1,5 +1,7 @@
 # Configurações do NeoVim  
 
+Artigo onde tem mais informações : https://www.manualdocodigo.com.br/vim-basico/
+
 ## Pré-requisitos
 Para instalar sem ter problemas tem que ter o python e pip e o node.js
 
