@@ -91,7 +91,7 @@
   nmap tc :!
 
   " Mapeia o crtl+f para
-  map <CR-f> /
+  nmap f /
 
 
   " remaps aqui
