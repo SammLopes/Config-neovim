@@ -109,6 +109,10 @@
 
   autocmd! CursorHold,CursorHoldI * call HighlightWordUnderCursor()
 
+
+  autocmd FileType * map <buffer> <c-d> :ALEGoToDefinition<CR>
+
+
   " autocmds aqui
 
   " AirLine """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
