@@ -106,7 +106,6 @@
   endfunction
 
 
-
   autocmd! CursorHold,CursorHoldI * call HighlightWordUnderCursor()
 
 
@@ -131,6 +130,10 @@
 
   " ALE """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
   let g:ale_linters = {
+      \   'php': ['php', 'phpcs', 'phpmd'],
+      \   'javascript': ['eslint'],
+      \   'java': ['checkstyle', 'pmd'],
+      \   'typescript': ['tsserver'],
   \}
 
   let g:ale_fixers = {
