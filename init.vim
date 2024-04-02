@@ -144,6 +144,12 @@
 
   let g:ale_fix_on_save = 1
 
+    " ALE shortcut
+
+    nmap <silent> <leader>aj :ALENext<cr>
+    nmap <silent> <leader>ak :ALEPrevious<cr>
+
+
   " COC (Conquer of completion) """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
   let g:coc_global_extensions = [ 'coc-snippets', 'coc-explorer']
