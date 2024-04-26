@@ -1,5 +1,7 @@
 # Configurações do NeoVim  
 
+Artigo onde tem mais informações : https://www.manualdocodigo.com.br/vim-basico/
+
 ## Pré-requisitos
 Para instalar sem ter problemas tem que ter o python e pip e o node.js
 
@@ -114,3 +116,22 @@ chamado init.vim.
 
 No linux colocamos em ~/.config/nvim/init.vim. Como dito antes é necessário criar um arquivo de configuração, logo crie uma 
 pasta nvim na pasta ~/.config  e crie um arquivo chamado init.vim.
+
+# Avisos: 
+O possivelmente o plugin de icones `Plug 'ryanoasis/vim-devicons'` não funcione corretamente se voce não tiver uma fonte do Nerd Font, caso o seu sistema seja um Ubuntu ou uma flavor dele, talvez seja necessário instalar 
+um fonte de simbolos do proprio Nerd Fonte esse aqui é o link do Nerd Font https://www.nerdfonts.com/font-downloads e utilizei o Symbols Nerd Font, baixei o arquivo zip e instalei a fonte e reiniciei o cache de fontes do sistema, 
+e quando voce entrar nas configurações do console para trocar de fonte ela vai aparecer na lista de fontes do sistema.
+
+Comando para reiniciar o cache de fontes: 
+`fc-cache -f -v`
+
+Esse é o diretório de fontes do usuário:
+```
+/usr/local/share/fonts:
+```
+Esse é o diretório de fontes do sistema inteiro:
+```
+/usr/share/fonts
+```
+
+
